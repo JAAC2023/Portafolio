@@ -1,0 +1,77 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-size:cover;
+  background-color: rgb(10, 12, 40);
+  height: 100vh;
+  overflow: hidden;
+  margin: -1ch;
+}
+
+.video-fondo {
+  width: max-content;
+  object-fit: cover;
+  opacity: 10%;
+}
+
+.subContenedor{
+  position: relative;
+}
+
+.contLineas{
+  position: absolute;
+  width: 75rem
+}
+
+.linea1{
+border-bottom: 1rem solid #ffffff;
+width: 15rem;
+border-left: 1px solid #ffffff ;
+}
+
+.linea2{
+  border-left: 1rem solid #ffffff ;
+  height: 15rem;
+  width: 0%;
+}
+
+.linea3{
+  border-right: 1rem solid #ffffff ;
+  height: 15rem;
+}
+.contLinea3-4{
+  align-items: end;
+  justify-content: end;
+  margin-left: 60rem;
+  padding-top: 4rem;
+}
+
+.linea4{
+  border-top: 1rem solid #ffffff ;
+  width: 15rem;
+  text-align: end;
+}
+
+.contTextos{
+  position: absolute;
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  flex-direction: column;
+  width: 40rem;
+}
+
+.texto1{
+  color: rgb(255, 255, 255);
+  font-size: 300%;
+  font-family: monospace;
+}
+
+.texto2{
+  color: rgb(255, 255, 255);
+  font-size: 120%;
+  font-family: monospace;
+}
