@@ -1,76 +1,76 @@
 .contenedor {
+  background-color: rgb(10, 12, 40);
+  position: fixed;
   display: flex;
   justify-content: center;
-  background-position: center;
-  background-repeat: no-repeat;
   align-items: center;
-  background-size:cover;
-  background-color: rgb(10, 12, 40);
-  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
-  margin: -1ch;
+  z-index: -1;
 }
 
 .video-fondo {
-  width: max-content;
+  opacity: 15%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  opacity: 10%;
 }
 
-.subContenedor{
-  position: relative;
-}
-
-.contLineas{
+.contLineas {
   position: absolute;
-  width: 75rem
+  object-fit: cover;
+  width: 75rem;
 }
 
-.linea1{
-border-bottom: 1rem solid #ffffff;
-width: 15rem;
-border-left: 1px solid #ffffff ;
+.linea1 {
+  border-bottom: 1rem solid #ffffff;
+  width: 15rem;
+  border-left: 1px solid #ffffff;
 }
 
-.linea2{
-  border-left: 1rem solid #ffffff ;
+.linea2 {
+  border-left: 1rem solid #ffffff;
   height: 15rem;
   width: 0%;
 }
 
-.linea3{
-  border-right: 1rem solid #ffffff ;
+.linea3 {
+  border-right: 1rem solid #ffffff;
   height: 15rem;
 }
-.contLinea3-4{
+.contLinea3-4 {
   align-items: end;
   justify-content: end;
   margin-left: 60rem;
   padding-top: 4rem;
 }
 
-.linea4{
-  border-top: 1rem solid #ffffff ;
+.linea4 {
+  border-top: 1rem solid #ffffff;
   width: 15rem;
   text-align: end;
 }
 
-.contTextos{
+.contTextos {
   position: absolute;
   display: flex;
   text-align: left;
-  justify-content: left;
   flex-direction: column;
   width: 40rem;
 }
 
-.texto1{
+.texto1 {
   color: rgb(255, 255, 255);
   font-size: 300%;
   font-family: monospace;
 }
 
-.texto2{
+.texto2 {
   color: rgb(255, 255, 255);
   font-size: 120%;
   font-family: monospace;
