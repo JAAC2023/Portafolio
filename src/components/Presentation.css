@@ -75,3 +75,8 @@
   font-size: 120%;
   font-family: monospace;
 }
+
+.contLinks {
+  position: absolute;
+  background-color: #ffffff;
+}
