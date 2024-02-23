@@ -61,7 +61,9 @@
   display: flex;
   text-align: left;
   flex-direction: column;
-  width: 40rem;
+  width: 65rem;
+  height: 20rem;
+  background-color: aquamarine;
 }
 
 .texto1 {
@@ -70,13 +72,50 @@
   font-family: monospace;
 }
 
+.parrafo {
+  display: flex;
+  width: 60rem;
+  text-align: justify;
+  flex-direction: row;
+  background-color: black;
+}
+
 .texto2 {
+  width: 30rem;
+  background-color: aqua;
   color: rgb(255, 255, 255);
   font-size: 120%;
   font-family: monospace;
 }
 
+.proyectos {
+  display: flex;
+  justify-content: end;
+  background-color: rgb(77, 77, 255);
+  width: 20rem;
+}
+
+.textoProyectos {
+  color: white;
+}
+
 .contLinks {
-  position: absolute;
-  background-color: #ffffff;
+  display: flex;
+  justify-content: end;
+  z-index: 1;
+  flex-direction: row-reverse;
+}
+
+.logoGit {
+  width: 3rem;
+  height: 3rem;
+  filter: invert() opacity(50%);
+  margin: -1mm;
+}
+
+.logoLinke {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding-left: 0.4rem;
+  filter: invert() opacity(80%);
 }
