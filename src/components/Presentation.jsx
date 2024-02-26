@@ -1,5 +1,5 @@
 import "./Presentation.css";
-import video from "../../../material/fondo2.mp4";
+import video from "../../material/fondo2.mp4";
 import logoLinkedIn from "../assets/linkedin.svg";
 import logoGitGub from "../assets/Github3.png";
 import logoWhatsapp from "../assets/Whatsaap.png";
