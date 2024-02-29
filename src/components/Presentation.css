@@ -248,14 +248,24 @@
   cursor: pointer;
 }
 
+.video-fondoR {
+  display: none;
+}
+
 @media screen and (max-width: 360px) {
   .contenedor {
     overflow: auto;
   }
 
   .video-fondo {
-    width: min-content;
+    display: none;
   }
+  .video-fondoR {
+    display: flex;
+    opacity: 10%;
+    height: 60rem;
+  }
+
   .contTextos {
     justify-content: center;
     align-items: center;

@@ -1,5 +1,6 @@
 import "./Presentation.css";
 import video from "../../material/fondo2.mp4";
+import videoR from "../../material/Responsive.mp4";
 import logoLinkedIn from "../assets/linkedin.svg";
 import logoGitGub from "../assets/GitHub3.png";
 import logoWhatsapp from "../assets/Whatsaap.png";
@@ -79,6 +80,9 @@ const Presentation = () => {
       </div>
       <video autoPlay loop muted preload="auto" className="video-fondo">
         <source src={video} type="video/mp4" />
+      </video>
+      <video autoPlay loop muted preload="auto" className="video-fondoR">
+        <source src={videoR} type="video/mp4" />
       </video>
     </div>
   );
