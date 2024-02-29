@@ -48,6 +48,7 @@ const Presentation = () => {
               ¡Estoy listo para llevar tu proyecto al siguiente nivel!
             </p>
           </div>
+          <div className="lineaInter"></div>
           <div className="proyectos">
             <h2 className="tituloProyectos">Proyectos</h2>
             <div className="linProy1"></div>
