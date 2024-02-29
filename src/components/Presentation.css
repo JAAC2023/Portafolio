@@ -247,3 +247,45 @@
   transform: scale(1.2);
   cursor: pointer;
 }
+
+@media screen and (max-width: 360px) {
+  .contTextos {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    height: 45rem;
+  }
+
+  .contLineas {
+    display: none;
+  }
+
+  .contLinks {
+    background-color: black;
+    margin-bottom: 5rem;
+  }
+
+  .parrafo {
+    background-color: aqua;
+    font-size: 10px;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    height: 40rem;
+  }
+
+  .texto2 {
+    padding: 0rem;
+  }
+
+  .proyectos {
+    justify-content: center;
+    margin-left: 0rem;
+    align-items: center;
+  }
+
+  .lineaParrafo {
+    display: none;
+  }
+}

@@ -12,7 +12,7 @@ const Presentation = () => {
     <div className="contenedor">
       <div className="contTextos">
         <div className="contLinks">
-          <a href="https://www.linkedin.com/in/jose-abel-aguilar-cepeda-8a3924284">
+          <a href="https://www.linkedin.com/in/jose-abel-aguilar-cepeda-8a3924284" target="_blank">
             <img src={logoLinkedIn} alt="logo linkedin" className="logoLinke" />
           </a>
           <a href="https://github.com/JAAC2023" target="_blank">
