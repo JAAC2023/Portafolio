@@ -37,7 +37,7 @@ const Presentation = () => {
           <div className="contLinParr">
             <div className="lineaParrafo"></div>
             <p className="texto2">
-              Mi nombre es <strong>Jose Abel</strong>, soy un{" "}
+              Mi nombre es <strong>Jose Abel,</strong> soy un{" "}
               <strong>desarrollador Full Stack</strong> apasionado por crear
               aplicaciones web innovadoras. Con experiencia en tecnologías como
               JavaScript, Node.js y React.js, me especializo en transformar
