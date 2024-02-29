@@ -1,7 +1,7 @@
 import "./Presentation.css";
 import video from "../../material/fondo2.mp4";
 import logoLinkedIn from "../assets/linkedin.svg";
-import logoGitGub from "../assets/Github3.png";
+import logoGitGub from "../assets/GitHub3.png";
 import logoWhatsapp from "../assets/Whatsaap.png";
 import logoGmail from "../assets/Gmail.png";
 import logoHotmail from "../assets/Hotmail.png";
