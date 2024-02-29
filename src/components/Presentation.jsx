@@ -4,7 +4,7 @@ import logoLinkedIn from "../assets/linkedin.svg";
 import logoGitGub from "../assets/GitHub3.png";
 import logoWhatsapp from "../assets/Whatsaap.png";
 import logoGmail from "../assets/Gmail.png";
-import logoHotmail from "../assets/Hotmail.png";
+import logoHotmail from "../assets/hotmail.png";
 import foto from "../assets/Foto.png";
 
 const Presentation = () => {
