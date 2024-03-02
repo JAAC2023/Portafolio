@@ -193,6 +193,24 @@
   flex-direction: row-reverse;
 }
 
+.botonDescarga {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 0.4rem;
+  filter: invert() opacity(50%);
+  margin-top: 0.5rem;
+  margin-right: 0.4rem;
+  transition: transform 0.3s ease;
+  font-family: monospace;
+}
+
+.botonDescarga:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 .logoGit {
   width: 3rem;
   height: 3rem;
@@ -254,16 +272,20 @@
 
 @media screen and (max-width: 360px) {
   .contenedor {
-    overflow: auto;
+    overflow-x: hidden;
   }
 
   .video-fondo {
     display: none;
   }
+
   .video-fondoR {
     display: flex;
     opacity: 10%;
-    height: 60rem;
+    height: 55rem;
+    width: 25rem;
+    object-fit: cover;
+    overflow-y: auto;
   }
 
   .contTextos {
@@ -323,5 +345,21 @@
 
   .lineaParrafo {
     display: none;
+  }
+
+  .logoGit {
+    padding-left: 0rem;
+  }
+
+  .logoGmail {
+    padding-left: 0rem;
+  }
+
+  .logoLinke {
+    padding-left: 0rem;
+  }
+
+  .logoWhat {
+    padding-left: 0rem;
   }
 }

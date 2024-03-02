@@ -7,13 +7,17 @@ import logoWhatsapp from "../assets/Whatsaap.png";
 import logoGmail from "../assets/Gmail.png";
 import logoHotmail from "../assets/hotmail.png";
 import foto from "../assets/Foto.png";
+import CV from "../../material/CV_Jose_Aguilar.pdf";
 
 const Presentation = () => {
   return (
     <div className="contenedor">
       <div className="contTextos">
         <div className="contLinks">
-          <a href="https://www.linkedin.com/in/jose-abel-aguilar-cepeda-8a3924284" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/jose-abel-aguilar-cepeda-8a3924284"
+            target="_blank"
+          >
             <img src={logoLinkedIn} alt="logo linkedin" className="logoLinke" />
           </a>
           <a href="https://github.com/JAAC2023" target="_blank">
@@ -22,14 +26,23 @@ const Presentation = () => {
           <a href="https://w.app/U0w8Ze" target="_blank">
             <img src={logoWhatsapp} alt="logo Whatsapp" className="logoWhat" />
           </a>
-          <a href="mailto:joseaguilarc0498@gmail.com?Subject=Interesado%20en%20tu%20perfil" target="_blank">
+          <a
+            href="mailto:joseaguilarc0498@gmail.com?Subject=Interesado%20en%20tu%20perfil"
+            target="_blank"
+          >
             <img src={logoGmail} alt="logo Gmail" className="logoGmail" />
           </a>
-          <a href="mailto:jaac16@live.com?Subject=Interesado%20en%20tu%20perfil" target="_blank">
+          <a
+            href="mailto:jaac16@live.com?Subject=Interesado%20en%20tu%20perfil"
+            target="_blank"
+          >
             <img src={logoHotmail} alt="logo hotmail" className="logoGmail" />
           </a>
+          <a href={CV} class="boton-descarga" target="_blank">
+            <button className="botonDescarga">HOJA DE VIDA</button>
+          </a>
         </div>
-        <h1 className="texto1">BIENVENIDO!</h1>
+        <h1 className="texto1">¡BIENVENIDO!</h1>
         <div className="contFoto">
           <img src={foto} alt="" className="foto" />
         </div>
@@ -56,13 +69,22 @@ const Presentation = () => {
             <div className="contLinText">
               <div className="linProy2" />
               <div className="lista">
-                <a href="https://github.com/JAAC2023/Poyecto_Integrador.git" target="_blank">
+                <a
+                  href="https://github.com/JAAC2023/Poyecto_Integrador.git"
+                  target="_blank"
+                >
                   <p className="textoProyectos">Rick and Morty</p>
                 </a>
-                <a href="https://github.com/JAAC2023/Proyecto_Countries.git" target="_blank">
+                <a
+                  href="https://github.com/JAAC2023/Proyecto_Countries.git"
+                  target="_blank"
+                >
                   <p className="textoProyectos">Countries</p>
                 </a>
-                <a href="https://healthbooking-front.vercel.app/" target="_blank">
+                <a
+                  href="https://healthbooking-front.vercel.app/"
+                  target="_blank"
+                >
                   <p className="textoProyectos">HealthBooking</p>
                 </a>
               </div>
