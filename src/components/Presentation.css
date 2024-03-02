@@ -349,17 +349,63 @@
 
   .logoGit {
     padding-left: 0rem;
+    animation: moverBoton 6s infinite;
   }
 
   .logoGmail {
     padding-left: 0rem;
+    animation: moverBoton 6s infinite;
   }
 
   .logoLinke {
     padding-left: 0rem;
+    animation: moverBoton 6s infinite;
   }
 
   .logoWhat {
     padding-left: 0rem;
+    animation: moverBoton 6s infinite;
+  }
+
+  .botonDescarga {
+    animation: moverBoton 6s infinite;
+  }
+
+  @keyframes moverBoton {
+    0% {
+      transform: scale(1); /* Inicio: no hay traslación */
+    }
+    25% {
+      transform: scale(1.1); /* 25% del tiempo: traslación a la derecha */
+    }
+    50% {
+      transform: scale(1); /* 50% del tiempo: traslación hacia abajo */
+    }
+    75% {
+      transform: scale(1.1); /* 75% del tiempo: traslación a la izquierda */
+    }
+    100% {
+      transform: scale(1); /* Fin: traslación hacia arriba */
+    }
+  }
+
+  .botonDescarga:hover {
+    transform: scale(1);
+  }
+
+  .logoGit:hover {
+    transform: scale(1);
+  }
+
+  .logoLinke:hover {
+    transform: scale(1);
+  }
+
+  .logoWhat:hover {
+    transform: scale(1);
+  }
+
+  .logoGmail:hover {
+    transform: scale(1);
   }
 }
