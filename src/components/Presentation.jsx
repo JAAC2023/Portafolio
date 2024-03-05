@@ -6,7 +6,7 @@ import logoGitGub from "../assets/GitHub3.png";
 import logoWhatsapp from "../assets/Whatsaap.png";
 import logoGmail from "../assets/Gmail.png";
 import logoHotmail from "../assets/hotmail.png";
-import foto from "../assets/Foto.png";
+import foto from "../assets/Foto4.png";
 import CV from "../../material/CV_Jose_Aguilar.pdf";
 
 const Presentation = () => {
@@ -42,7 +42,7 @@ const Presentation = () => {
             <button className="botonDescarga">HOJA DE VIDA</button>
           </a>
         </div>
-        <h1 className="texto1">¡BIENVENIDO!</h1>
+        <h1 className="texto1">¡HOLA!</h1>
         <div className="contFoto">
           <img src={foto} alt="" className="foto" />
         </div>
@@ -86,6 +86,27 @@ const Presentation = () => {
                   target="_blank"
                 >
                   <p className="textoProyectos">HealthBooking</p>
+                </a>
+              </div>
+
+              <div className="lista360">
+                <a
+                  href="https://github.com/JAAC2023/Poyecto_Integrador.git"
+                  target="_blank"
+                >
+                  <p className="textoProyectos360">Rick and Morty 🟢</p>
+                </a>
+                <a
+                  href="https://github.com/JAAC2023/Proyecto_Countries.git"
+                  target="_blank"
+                >
+                  <p className="textoProyectos360">Countries 🟡</p>
+                </a>
+                <a
+                  href="https://healthbooking-front.vercel.app/"
+                  target="_blank"
+                >
+                  <p className="textoProyectos360">HealthBooking 🔵</p>
                 </a>
               </div>
             </div>

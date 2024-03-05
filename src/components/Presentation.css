@@ -270,12 +270,28 @@
   display: none;
 }
 
+.lista360 {
+  display: none;
+}
+
+/* .textoProyectos360 {
+  display: none;
+} */
+
 @media screen and (max-width: 360px) {
   .contenedor {
     overflow-x: hidden;
   }
 
   .video-fondo {
+    display: none;
+  }
+
+  .lista {
+    display: none;
+  }
+
+  .textoProyectos {
     display: none;
   }
 
@@ -329,7 +345,6 @@
     justify-content: center;
     margin-left: 0rem;
     align-items: start;
-
     height: 15rem;
     width: 20rem;
     margin-top: -2rem;
@@ -407,5 +422,21 @@
 
   .logoGmail:hover {
     transform: scale(1);
+  }
+
+  .lista360 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  .textoProyectos360 {
+    color: white;
+    font-family: monospace;
+    font-size: 120%;
+    text-shadow: 0rem 0rem 0.5rem rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    font-weight: 600;
   }
 }
