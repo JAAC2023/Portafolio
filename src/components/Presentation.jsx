@@ -23,7 +23,7 @@ const Presentation = () => {
           <a href="https://github.com/JAAC2023" target="_blank">
             <img src={logoGitGub} alt="logo GitGub" className="logoGit" />
           </a>
-          <a href="https://w.app/U0w8Ze" target="_blank">
+          <a href="https://wa.link/c3axaq" target="_blank">
             <img src={logoWhatsapp} alt="logo Whatsapp" className="logoWhat" />
           </a>
           <a
