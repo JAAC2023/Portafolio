@@ -7,6 +7,10 @@ import logoWhatsapp from "../assets/Whatsaap.png";
 import logoGmail from "../assets/Gmail.png";
 import logoHotmail from "../assets/hotmail.png";
 import foto from "../assets/Foto4.png";
+import RickAndMorty from "../../material/RickAndMorty.mp4";
+import HealthBooking from "../../material/HealthBooking.mp4";
+import imagenPI_1 from "../../material/P.I_1.png";
+import imagenPI_2 from "../../material/P.I_2.png";
 import CV from "../../material/CV_Jose_Aguilar.pdf";
 
 const Presentation = () => {
@@ -70,19 +74,22 @@ const Presentation = () => {
               <div className="linProy2" />
               <div className="lista">
                 <a
-                  href="https://github.com/JAAC2023/Poyecto_Integrador.git"
+                  //href="https://github.com/JAAC2023/Poyecto_Integrador.git"
+                  href={RickAndMorty}
                   target="_blank"
                 >
                   <p className="textoProyectos">Rick and Morty</p>
                 </a>
                 <a
-                  href="https://github.com/JAAC2023/Proyecto_Countries.git"
+                  //</div>href="https://github.com/JAAC2023/Proyecto_Countries.git"
+                  href={imagenPI_2}
                   target="_blank"
                 >
                   <p className="textoProyectos">Countries</p>
                 </a>
                 <a
-                  href="https://healthbooking-front.vercel.app/"
+                  //href="https://healthbooking-front.vercel.app/"
+                  href={HealthBooking}
                   target="_blank"
                 >
                   <p className="textoProyectos">HealthBooking</p>
