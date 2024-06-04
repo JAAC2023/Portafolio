@@ -98,19 +98,22 @@ const Presentation = () => {
 
               <div className="lista360">
                 <a
-                  href="https://github.com/JAAC2023/Poyecto_Integrador.git"
+                  //href="https://github.com/JAAC2023/Poyecto_Integrador.git"
+                  href={RickAndMorty}
                   target="_blank"
                 >
                   <p className="textoProyectos360">Rick and Morty 🟢</p>
                 </a>
                 <a
-                  href="https://github.com/JAAC2023/Proyecto_Countries.git"
+                  //href="https://github.com/JAAC2023/Proyecto_Countries.git"
+                  href={imagenPI_2}
                   target="_blank"
                 >
                   <p className="textoProyectos360">Countries 🟡</p>
                 </a>
                 <a
-                  href="https://healthbooking-front.vercel.app/"
+                  //href="https://healthbooking-front.vercel.app/"
+                  href={HealthBooking}
                   target="_blank"
                 >
                   <p className="textoProyectos360">HealthBooking 🔵</p>
